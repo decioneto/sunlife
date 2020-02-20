@@ -1,8 +1,10 @@
 $yellow: #FFCC4E;
 $orange: #F15A47;
 $brown: #1B090A;
+$bg-gradient: linear-gradient(to bottom, #F15A47, #FFCC4E);
 
 $font-primary: 'Muli', sans-serif;
+
 
 * {
     margin: 0;
@@ -19,7 +21,7 @@ body {
 #header {
     padding: 5px 30px;
     background: -webkit-gradient(linear, left top, left bottom, from(#F15A47), to(#FFCC4E));
-    background: linear-gradient(to bottom, #F15A47, #FFCC4E);
+    background: $bg-gradient;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -64,6 +66,62 @@ body {
             margin: 0;
             text-align: right;
             color: #fff;
+        }
+    }
+}
+
+.navbar {
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .navbar-brand {
+
+        img {
+            width: 30%;
+        }
+    }
+
+    .navbar-collapse {
+
+        .navbar-nav {
+
+            li.nav-item {
+                margin-left: 20px;
+
+                &.active {
+
+                    .nav-link {
+                        font-weight: 800;
+                        color: $orange;
+                    }
+                }
+                
+                &:hover {
+
+                    .nav-link {
+                        color: $orange;
+                    }
+                }
+
+                &.dropdown {
+
+                    .dropdown-menu {
+
+                        .dropdown-item {
+
+                            &:hover {
+                                color: $orange;
+                            }
+                        }
+                    }
+                }
+
+                .nav-link {
+                    color: $brown;
+                    transition: all 0.2s;
+                }
+            }
         }
     }
 }

@@ -74,4 +74,37 @@ body {
   text-align: right;
   color: #fff;
 }
+
+.navbar {
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar .navbar-brand img {
+  width: 30%;
+}
+
+.navbar .navbar-collapse .navbar-nav li.nav-item {
+  margin-left: 20px;
+}
+
+.navbar .navbar-collapse .navbar-nav li.nav-item.active .nav-link {
+  font-weight: 800;
+  color: #F15A47;
+}
+
+.navbar .navbar-collapse .navbar-nav li.nav-item:hover .nav-link {
+  color: #F15A47;
+}
+
+.navbar .navbar-collapse .navbar-nav li.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  color: #F15A47;
+}
+
+.navbar .navbar-collapse .navbar-nav li.nav-item .nav-link {
+  color: #1B090A;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
 /*# sourceMappingURL=style.css.map */
