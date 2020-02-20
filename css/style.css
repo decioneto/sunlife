@@ -1,1 +1,77 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1B090A;
+}
+
+#header {
+  padding: 5px 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F15A47), to(#FFCC4E));
+  background: linear-gradient(to bottom, #F15A47, #FFCC4E);
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#header .header-email {
+  width: 33.33%;
+}
+
+#header .header-email p {
+  margin: 0;
+  text-align: left;
+  color: #fff;
+}
+
+#header .header-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 33.33%;
+}
+
+#header .header-socials a.socials-link {
+  color: #fff;
+  margin-right: 10px;
+  padding-left: 10px;
+  font-size: 25px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border-left: 1px solid #fff;
+}
+
+#header .header-socials a.socials-link:first-child {
+  border: 0;
+}
+
+#header .header-phone {
+  width: 33.33%;
+}
+
+#header .header-phone p {
+  margin: 0;
+  text-align: right;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
