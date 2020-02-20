@@ -119,6 +119,83 @@ body {
   color: #f15a47;
 }
 
+.properties .properties-card .properties-img {
+  background: #1B090A;
+  position: relative;
+}
+
+.properties .properties-card .properties-img .more {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 25px;
+  opacity: 0;
+  color: #fff;
+}
+
+.properties .properties-card .properties-img:hover .more {
+  opacity: 1;
+}
+
+.properties .properties-card .properties-img:hover img {
+  opacity: 0.3;
+}
+
+.properties .properties-card .properties-img img {
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.properties .properties-card .properties-title {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.properties .properties-card .properties-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.properties .properties-card .properties-details .area p {
+  margin: 0;
+}
+
+.properties .properties-card .properties-details .area p strong {
+  color: #F15A47;
+}
+
+.properties .properties-card .properties-details .room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.properties .properties-card .properties-details .room p {
+  margin: 0;
+}
+
+.properties .properties-card .properties-details .room p .room-icon {
+  color: #F15A47;
+}
+
+.properties .properties-card .properties-details .room p:first-child {
+  margin-right: 10px;
+}
+
 .services {
   margin-top: 20px;
 }

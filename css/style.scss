@@ -140,6 +140,83 @@ body {
     }
 }
 
+.properties {
+
+    .properties-card {
+
+        .properties-img {
+            background: $brown;
+            position: relative;
+
+            .more {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 25px;
+                opacity: 0;
+                color: #fff;
+            }
+
+            &:hover {
+
+                .more {
+                    opacity: 1;
+                }
+
+                img {
+                    opacity: 0.3;
+                }
+            }
+
+            img {
+                width: 100%;
+                transition: all 0.3s;
+            }
+        }
+
+        .properties-title {
+            font-size: 20px;
+            margin-bottom: 0;
+            margin-top: 5px;
+        }
+
+        .properties-details {
+            display: flex;
+            justify-content: space-between;
+
+            .area {
+                
+                p {
+                    margin: 0;
+                    
+                    strong {
+                        color: $orange;
+                    }
+                }
+            }
+
+            .room {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                p {
+                    margin: 0;
+
+                    .room-icon {
+                        color: $orange;
+                    }
+
+                    &:first-child {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .services {
     margin-top: 20px;
 
