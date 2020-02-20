@@ -249,3 +249,74 @@ body {
         }
     }
 }
+
+.footer {
+    margin-top: 30px;
+    background-color: $brown;
+    padding: 20px;
+    text-align: center;
+
+    .footer-title {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .footer-infos {
+        margin-bottom: 10px;
+        text-align: left;
+
+        .footer-subtitle {
+            color: $orange;
+            font-size: 16px;
+            font-weight: 800;
+    
+            .subtitle-icon {
+                margin-right: 10px;
+            }
+        }
+    
+        .footer-text {
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+
+    .footer-infos {
+        
+        .footer-menu {
+
+            .footer-menu-item {
+                margin-bottom: 5px;
+                padding-bottom: 5px;
+                border-bottom: 1px dashed #fff;
+
+                a {
+                    color: #fff;
+                    transition: 0.2s;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: $orange;
+                    }
+                }
+            }
+        }
+    }
+
+    form {
+
+        text-align: left;
+
+        .form-group {
+
+            label {
+                color: #fff;
+                text-align: left;
+                font-size: 14px;
+            }
+        }
+    }
+}

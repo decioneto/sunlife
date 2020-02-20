@@ -227,4 +227,66 @@ body {
   background: linear-gradient(to bottom, #F15A47, #FFCC4E);
   color: #fff;
 }
+
+.footer {
+  margin-top: 30px;
+  background-color: #1B090A;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .footer-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer .footer-infos {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer .footer-infos .footer-subtitle {
+  color: #F15A47;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.footer .footer-infos .footer-subtitle .subtitle-icon {
+  margin-right: 10px;
+}
+
+.footer .footer-infos .footer-text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer .footer-infos .footer-menu .footer-menu-item {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #fff;
+}
+
+.footer .footer-infos .footer-menu .footer-menu-item a {
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.footer .footer-infos .footer-menu .footer-menu-item a:hover {
+  text-decoration: none;
+  color: #F15A47;
+}
+
+.footer form {
+  text-align: left;
+}
+
+.footer form .form-group label {
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
