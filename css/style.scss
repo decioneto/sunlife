@@ -16,6 +16,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: $brown;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 #header {
@@ -121,6 +123,51 @@ body {
                     color: $brown;
                     transition: all 0.2s;
                 }
+            }
+        }
+    }
+}
+
+.wrapper-carousel {
+
+    .carousel-title {
+        text-align: center;
+        font-size: 4em;
+
+        strong {
+            color: #f15a47;
+        }
+    }
+}
+
+.services {
+    margin-top: 20px;
+
+    .services-card {
+        text-align: center;
+        padding: 20px;
+
+        .card-icon {
+            font-size: 45px;
+            color: #a2a2a2;
+            background-color: transparent;
+            width: 70px;
+            height: 70px;
+            margin: auto;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            transition: all 0.4s;
+        }
+
+        h3.card-title {
+            font-weight: 800;
+        }
+
+        &:hover {
+
+            .card-icon {
+                background: $bg-gradient;
+                color: #fff;
             }
         }
     }

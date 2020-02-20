@@ -8,6 +8,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #1B090A;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 #header {
@@ -106,5 +108,46 @@ body {
   color: #1B090A;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+.wrapper-carousel .carousel-title {
+  text-align: center;
+  font-size: 4em;
+}
+
+.wrapper-carousel .carousel-title strong {
+  color: #f15a47;
+}
+
+.services {
+  margin-top: 20px;
+}
+
+.services .services-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.services .services-card .card-icon {
+  font-size: 45px;
+  color: #a2a2a2;
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.services .services-card h3.card-title {
+  font-weight: 800;
+}
+
+.services .services-card:hover .card-icon {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F15A47), to(#FFCC4E));
+  background: linear-gradient(to bottom, #F15A47, #FFCC4E);
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
